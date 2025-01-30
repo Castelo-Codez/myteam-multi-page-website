@@ -10,7 +10,7 @@ export default function SidebarOpener({
             type="button"
             role="button"
             aria-label="open sidebar"
-            className=" md:hidden"
+            className="md:hidden "
             title="open sidebar"
             onClick={(e) => {
                 setNewState(!sidebarOpenerState);

@@ -11,6 +11,7 @@ export default function HeaderSection() {
     return (
         <header
             role="banner"
+            data-testid="header"
             aria-label="header"
             className="py-14  text-white bg-color-midnight-green"
         >
