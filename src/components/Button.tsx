@@ -10,7 +10,7 @@ export default function Button({
             {isLight ? (
                 <button
                     className={
-                        " py-[8px] px-[25px]  rounded-3xl font-[500] text-[1rem]   border-[2px] border-white " +
+                        " py-[8px] px-[40px]  rounded-3xl font-[700] text-[1.2rem]   border-[2px] border-white " +
                         additionalStyle
                     }
                     aria-label="contact us"
@@ -23,7 +23,7 @@ export default function Button({
             ) : (
                 <button
                     className={
-                        " py-[8px] px-[25px] rounded-23l  font-[500] text-[1rem]    border-[2px] border-p-cyprus " +
+                        " py-[8px] px-[40px] rounded-3xl  font-[700] text-[1.2rem]    border-[2px]  border-color-dark-green " +
                         additionalStyle
                     }
                     aria-label="contact us"
