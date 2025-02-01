@@ -4,7 +4,7 @@ export default function RightLayer() {
             <li>
                 <ul className=" flex justify-center items-center gap-x-4 sm:justify-start xl:justify-end">
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to facebook">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -18,7 +18,7 @@ export default function RightLayer() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to pinterest">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
@@ -32,7 +32,7 @@ export default function RightLayer() {
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="#" aria-label="go to twitter">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="24"
