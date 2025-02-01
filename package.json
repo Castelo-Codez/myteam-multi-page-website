@@ -8,8 +8,7 @@
         "start": "next start",
         "lint": "next lint",
         "test": "jest",
-        "test:watch": "jest --watch",
-        "coverage": "jest --coverage"
+        "test:watch": "jest --watch"
     },
     "dependencies": {
         "@next/font": "^14.2.15",

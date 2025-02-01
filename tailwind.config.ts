@@ -20,6 +20,7 @@ export default {
                 "color-dark-green": "#002529",
                 "color-very-dark-green": "#012F34",
                 "color-overlay": "rgba(0, 0, 0, 0.76)",
+                "color-gray": "rgba(247, 247, 247, 0.5)",
             },
             screens: {
                 sm: "576px",

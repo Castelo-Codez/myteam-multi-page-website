@@ -1,11 +1,10 @@
 import Link from "next/link";
 import Button from "./Button";
 import Image from "next/image";
-import MainLink from "./MainLink";
-import {  useState} from "react";
+import {useState} from "react";
 import MainSideBar from "./Sidebar";
 import SidebarOpener from "./SidebarOpener";
-
+import NavLinks from "./NavLinks";
 export default function HeaderSection() {
     const [sidebarOpenerState, setNewState] = useState<boolean>(false);
     return (
@@ -28,20 +27,7 @@ export default function HeaderSection() {
                             className="sm:w-full"
                         />
                     </Link>
-                    <nav
-                        role="navigation"
-                        aria-label="navigation"
-                        className="hidden md:block"
-                    >
-                        <ul role="list" className=" flex gap-x-8">
-                            <li role="list item">
-                                <MainLink href="home" />
-                            </li>
-                            <li role="list item">
-                                <MainLink href="about" />
-                            </li>
-                        </ul>
-                    </nav>
+                    <NavLinks additionalStyle="hidden md:block" />
                 </div>
                 <Button isLight={true} additionalStyle="hidden md:block" />
                 <SidebarOpener
@@ -54,5 +40,5 @@ export default function HeaderSection() {
                 />
             </div>
         </header>
-    )
+    );
 }
