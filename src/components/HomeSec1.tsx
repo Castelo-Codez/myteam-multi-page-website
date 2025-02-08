@@ -38,7 +38,8 @@ export default function HomeSec1() {
                     </div>
                 </h1>
                 <MainArticle
-                    additionalStylesForArticle="after:bg-color-rapture-blue lg:flex-1"
+                    additionalStyleForPattern="bg-color-rapture-blue hidden lg:block"
+                    additionalStylesForPara="text-center lg:text-left  lg:mt-16"
                     subject="Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that."
                 />
             </div>
