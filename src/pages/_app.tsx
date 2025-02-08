@@ -17,7 +17,7 @@ export default function App({Component, pageProps}: AppProps) {
                     content="my team multi-page | front end mentor challenges"
                 />
             </Head>
-            <main className={livvic.className + "relative"}>
+            <main className={`${livvic.className} relative`}>
                 <MainLayout>
                     <Component {...pageProps} />
                 </MainLayout>
