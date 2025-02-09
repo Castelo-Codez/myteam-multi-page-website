@@ -1,3 +1,5 @@
+import {useRouter} from "next/router";
+
 export default function Button({
     isLight,
     additionalStyle = "",
@@ -5,6 +7,7 @@ export default function Button({
     isLight: boolean;
     additionalStyle?: string;
 }) {
+    const router = useRouter();
     return (
         <>
             {isLight ? (
@@ -13,10 +16,12 @@ export default function Button({
                         " py-[8px] px-[40px]  rounded-3xl font-[700] text-[1.2rem]   border-[2px] border-white " +
                         additionalStyle
                     }
+                    onClick={() => {
+                        router.push("/contact-us");
+                    }}
                     aria-label="contact us"
                     title="contact us"
-                    type="button"
-                    role="button"
+                    role="link"
                 >
                     contact us
                 </button>
@@ -26,10 +31,12 @@ export default function Button({
                         " py-[8px] px-[40px] rounded-3xl  font-[700] text-[1.2rem]    border-[2px]  border-color-dark-green " +
                         additionalStyle
                     }
+                    onClick={() => {
+                        router.push("/contact-us");
+                    }}
                     aria-label="contact us"
                     title="contact us"
-                    type="button"
-                    role="button"
+                    role="link"
                 >
                     contact us
                 </button>

@@ -4,8 +4,8 @@ export default function HomeSec1() {
     return (
         <section className="pt-16 pb-40 lg:pb-52 bg-color-midnight-green relative overflow-hidden">
             <div className=" container lg:px-11 flex flex-col gap-y-10 lg:flex-row lg:items-end">
-                <h1 className=" relative text-color-white lg:flex-[0_0_60%]  max-w-[80%]  font-[700] mx-auto lg:mx-0 text-[3rem] text-center lg:leading-[5rem] lg:max-w-none lg:text-left lg:text-[calc(1rem_+_5vw)] ">
-                    <div className="  ">
+                <h1 className=" relative text-color-white lg:flex-[0_0_60%]  max-w-[80%]  font-[700] mx-auto lg:mx-0 text-[3rem] text-center lg:leading-[5rem] lg:max-w-none lg:text-left lg:text-[calc(1rem_+_4vw)] ">
+                    <div>
                         Find the best
                         <span className=" inline ml-3 text-color-light-coral">
                             talent

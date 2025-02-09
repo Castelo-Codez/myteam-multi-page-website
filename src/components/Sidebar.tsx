@@ -56,7 +56,7 @@ export default function MainSideBar({
                     <Button isLight={true} additionalStyle="px-[38px]" />
                 </li>
             </ul>
-            <div aria-hidden={true} className=" absolute bottom-44 -right-14">
+            <div aria-hidden={true} className=" absolute -bottom-10 -right-12 md:bottom-44 md:-right-14">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="200"
