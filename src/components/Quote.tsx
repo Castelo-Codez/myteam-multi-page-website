@@ -29,7 +29,7 @@ export default function Quote({
                 className=" rounded-full"
                 loading="lazy"
                 placeholder="blur"
-                blurDataURL="/public/spiner.svg"
+                blurDataURL="/spiner.svg"
             ></Image>
 
             <div
