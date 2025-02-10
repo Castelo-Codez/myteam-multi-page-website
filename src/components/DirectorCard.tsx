@@ -28,6 +28,7 @@ export default function DirectorCard({
                         className=" rounded-full"
                         placeholder="blur"
                         blurDataURL="/spiner.svg"
+                        loading="lazy"
                     />
                     <article className="text-center">
                         <h4 className=" text-color-rapture-blue text-[1rem] font-[700]">
